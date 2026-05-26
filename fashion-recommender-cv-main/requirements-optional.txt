@@ -1,0 +1,2 @@
+# Optional: enable voice search transcription
+SpeechRecognition>=3.10.0

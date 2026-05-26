@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #8b5cf6;
+  --color-accent: #ec4899;
+  --color-bg: #0f0f14;
+  --color-surface: #1a1a24;
+  --color-text: #f4f4f5;
+  --color-muted: #a1a1aa;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "DM Sans", system-ui, sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+  min-height: 100vh;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(139, 92, 246, 0.35), transparent),
+    radial-gradient(ellipse 60% 40% at 100% 50%, rgba(236, 72, 153, 0.15), transparent);
+  pointer-events: none;
+  z-index: -1;
+}
+
+.glass {
+  background: rgba(26, 26, 36, 0.85);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(244, 244, 245, 0.08);
+}
+
+.shimmer-text {
+  background: linear-gradient(90deg, var(--color-primary), var(--color-accent), var(--color-primary));
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shimmer 3s linear infinite;
+}
+
+@keyframes shimmer {
+  to { background-position: 200% center; }
+}
+
+.pinterest-masonry {
+  column-count: 2;
+  column-gap: 1rem;
+}
+
+@media (min-width: 640px) {
+  .pinterest-masonry { column-count: 3; }
+}
+@media (min-width: 1024px) {
+  .pinterest-masonry { column-count: 4; }
+}
+@media (min-width: 1280px) {
+  .pinterest-masonry { column-count: 5; }
+}
+
+.pinterest-item {
+  break-inside: avoid;
+  margin-bottom: 1rem;
+}
