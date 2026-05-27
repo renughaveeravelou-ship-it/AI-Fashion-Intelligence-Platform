@@ -58,7 +58,7 @@ Voice Search Search fashion items using speech input.
 
 Image Captioning Generate AI captions for uploaded fashion images.
 
-###Multi-Modal Search Search using: 
+### Multi-Modal Search Search using: 
 - Text
 - Image
 - Combined text + image queries
