@@ -1,9 +1,9 @@
 # Smart Stylist – AI-Powered Fashion Intelligence Platform
     
-##Overview
+## Overview
 Smart Stylist is an advanced AI-powered fashion intelligence platform that combines Computer Vision, Deep Learning, Recommendation Systems, and Multi-Modal AI to deliver smart fashion recommendations and styling assistance.
 
-##The platform allows users to: 
+## The platform allows users to: 
 - Upload outfit images
 - Detect fashion objects using YOLO
 - Search visually similar outfits
@@ -15,7 +15,7 @@ Smart Stylist is an advanced AI-powered fashion intelligence platform that combi
 - Receive personalized recommendations
 - Explore fashion trends with AI analytics
 
-##This project supports:
+## This project supports:
  - Streamlit-based AI application
  - Full Stack React + FastAPI architecture
  - AI Fashion Search Engine 
@@ -33,23 +33,23 @@ Smart Stylist is an advanced AI-powered fashion intelligence platform that combi
 
 Virtual Try-On Preview garments on user images using AI-based image overlay techniques.
 
-###Fashion Chatbot Interactive AI assistant for: 
+### Fashion Chatbot Interactive AI assistant for: 
    - Styling advice
    - Trend suggestions
    - Outfit recommendations
 
-###Trend Prediction Analyzes catalog data to identify:
+### Trend Prediction Analyzes catalog data to identify:
 - Trending categories
 - Seasonal fashion patterns
 - Rising outfit styles
 
-###Smart Attribute Detection Detects:
+### Smart Attribute Detection Detects:
 - Clothing category
 - Colors
 - Patterns
 - Style metadata
 
-###Personalized Recommendation Engine Learns user preferences using: 
+### Personalized Recommendation Engine Learns user preferences using: 
 - Like/dislike feedback
 - Embedding-based personalization
 - Fashion similarity ranking
@@ -148,7 +148,7 @@ http://127.0.0.1:8000/docs
 
 3 AI Models Used Model Purpose YOLOv5 Fashion Object Detection FashionCLIP Fashion Embeddings AutoEncoder Feature Extraction BLIP Image Captioning ChromaDB Vector Storage FAISS Similarity Search
 
-📊 Advanced Features
+## Advanced Features
 
 Real-time visual similarity search
 Voice-enabled fashion retrieval
