@@ -1,4 +1,4 @@
-# Smart Stylist – AI-Powered Fashion Intelligence Platform
+#  Smart Stylist – AI-Powered Fashion Intelligence Platform
     
 ## Overview
 Smart Stylist is an advanced AI-powered fashion intelligence platform that combines Computer Vision, Deep Learning, Recommendation Systems, and Multi-Modal AI to deliver smart fashion recommendations and styling assistance.
@@ -101,6 +101,8 @@ Frontend Display (React / Streamlit)
 - Database & Search
    - ChromaDB
    - FAISS Vector Search
+ 
+```text
 
 ## Project Structure
 SmartStylist/
@@ -120,6 +122,8 @@ SmartStylist/
 │
 └── models/                         # Trained AI Models
 
+```
+
 ### Installation
 1️. Clone Repository git clone https://github.com/your-username/smart-stylist.git cd smart-stylist
 
@@ -136,7 +140,8 @@ pip install -r requirements-optional.txt
 
 App URL:
 
-http://localhost:8501 🔹 Full Stack Application Run Backend .\run_backend.ps1 Run Frontend .\run_frontend.ps1 Or Run Everything .\run_all.ps1
+http://localhost:8501 
+Full Stack Application Run Backend .\run_backend.ps1 Run Frontend .\run_frontend.ps1 Or Run Everything .\run_all.ps1
 
 Frontend:
 
@@ -150,15 +155,17 @@ http://127.0.0.1:8000/docs
 
 ## Advanced Features
 
-Real-time visual similarity search
-Voice-enabled fashion retrieval
-Personalized AI recommendations
-AI trend forecasting
-Multi-modal semantic search
-Conversational fashion assistant
-Fashion attribute recognition
-AI outfit rating system
-How It Works Fashion Search Pipeline User uploads an image YOLO detects fashion objects FashionCLIP extracts embeddings Embeddings are stored in vector DB Similarity search retrieves matching outfits AI ranks recommendation
+- Real-time visual similarity search
+- Voice-enabled fashion retrieval
+- Personalized AI recommendations
+- AI trend forecasting
+- Multi-modal semantic search
+- Conversational fashion assistant
+- Fashion attribute recognition
+- AI outfit rating system
+  
+### How It Works 
+Fashion Search Pipeline User uploads an image YOLO detects fashion objects FashionCLIP extracts embeddings Embeddings are stored in vector DB Similarity search retrieves matching outfits AI ranks recommendation
 
 ## Dependencies Main libraries include:
 - PyTorch
