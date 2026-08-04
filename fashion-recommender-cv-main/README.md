@@ -1,35 +1,35 @@
-Smart Stylist – AI-Powered Fashion Intelligence Platform
+#Smart Stylist – AI-Powered Fashion Intelligence Platform
 <div align="center">
 👗 Smart Stylist
 AI-Powered Fashion Recommendation & Styling Platform
 <img src="https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python"> <img src="https://img.shields.io/badge/Streamlit-WebApp-red?style=for-the-badge&logo=streamlit"> <img src="https://img.shields.io/badge/FastAPI-Backend-green?style=for-the-badge&logo=fastapi"> <img src="https://img.shields.io/badge/React-Frontend-61dafb?style=for-the-badge&logo=react"> <img src="https://img.shields.io/badge/PyTorch-DeepLearning-orange?style=for-the-badge&logo=pytorch"> </div>
 
-📌 Overview
+## Overview
 Smart Stylist is an advanced AI-powered fashion intelligence platform that combines Computer Vision, Deep Learning, Recommendation Systems, and Multi-Modal AI to deliver smart fashion recommendations and styling assistance.
 
 The platform allows users to:
--Upload outfit images
--Detect fashion objects using YOLO
--Search visually similar outfits
--Perform multi-modal fashion search
--Get AI-generated outfit ratings
--Use voice-powered fashion search
--Generate AI captions
--Try virtual outfit previews
--Receive personalized recommendations
--Explore fashion trends with AI analytics
+- Upload outfit images
+- Detect fashion objects using YOLO
+- Search visually similar outfits
+- Perform multi-modal fashion search
+- Get AI-generated outfit ratings
+- Use voice-powered fashion search
+- Generate AI captions
+- Try virtual outfit previews
+- Receive personalized recommendations
+- Explore fashion trends with AI analytics
 
-This project supports:
-✅ Streamlit-based AI application
-✅ Full Stack React + FastAPI architecture
-✅ AI Fashion Search Engine
-✅ FashionCLIP embeddings
-✅ Personalized recommendation engine
-✅ ChromaDB vector database integration
+##This project supports:
+- Streamlit-based AI application
+- Full Stack React + FastAPI architecture
+- AI Fashion Search Engine
+- FashionCLIP embeddings
+- Personalized recommendation engine
+- ChromaDB vector database integration
 
 
-🚀 Key Features
-🧠 AI-Powered Fashion Features
+## Key Features
+###AI-Powered Fashion Features
 1. Advanced AI Ensemble Search
 Combines:
 -YOLO Object Detection
@@ -80,7 +80,7 @@ Search using:
 10. Fashion Rating AI
 AI-generated outfit scoring system with aesthetic analysis.
 
-🏗️ System Architecture
+## System Architecture
 User Upload
      ↓
 YOLO Fashion Detection
@@ -96,29 +96,29 @@ AI Recommendation Engine
 Frontend Display (React / Streamlit)
 
 
-🛠️ Technologies Used
--Frontend
--React.js
--Tailwind CSS
--Framer Motion
--Streamlit
--Backend
--FastAPI
--Python
--AI / Machine Learning
--PyTorch
--FashionCLIP
--YOLOv5
--OpenCV
--Transformers
--FAISS
--ChromaDB
--Database & Search
--ChromaDB
--FAISS Vector Search
+## Technologies Used
+- Frontend
+- React.js
+- Tailwind CSS
+- Framer Motion
+- Streamlit
+- Backend
+- FastAPI
+- Python
+- AI / Machine Learning
+- PyTorch
+- FashionCLIP
+- YOLOv5
+- OpenCV
+- Transformers
+- FAISS
+- ChromaDB
+- Database & Search
+- ChromaDB
+- FAISS Vector Search
 
-
-📂 Project Structure
+...
+## Project Structure
 SmartStylist/
 │
 ├── home.py                     # Main Streamlit App
@@ -136,13 +136,14 @@ SmartStylist/
 │
 └── models/                     # Trained Models
 
+...
 
-⚙️ Installation
-1️⃣ Clone Repository
+## Installation
+1️1. Clone Repository
 git clone https://github.com/your-username/smart-stylist.git
 cd smart-stylist
 
-2️⃣ Create Virtual Environment
+2️. Create Virtual Environment
 Windows
 python -m venv venv
 venv\Scripts\activate
@@ -150,14 +151,14 @@ Linux / Mac
 python3 -m venv venv
 source venv/bin/activate
 
-3️⃣ Install Dependencies
+3️. Install Dependencies
 pip install -r requirements.txt
 
 Optional voice search support:
 
 pip install -r requirements-optional.txt
 
-▶️ Running the Project
+ Running the Project
 🔹 Streamlit App
 streamlit run home.py
 
@@ -180,7 +181,7 @@ Backend API Docs:
 
 http://127.0.0.1:8000/docs
 
-🧠 AI Models Used
+## AI Models Used
 Model	Purpose
 YOLOv5	Fashion Object Detection
 FashionCLIP	Fashion Embeddings
@@ -189,7 +190,7 @@ BLIP	Image Captioning
 ChromaDB	Vector Storage
 FAISS	Similarity Search
 
-📊 Advanced Features
+## Advanced Features
 - Real-time visual similarity search
 - Voice-enabled fashion retrieval
 - Personalized AI recommendations
@@ -209,7 +210,7 @@ Embeddings are stored in vector DB
 Similarity search retrieves matching outfits
 AI ranks recommendation
 
-📦 Dependencies
+## Dependencies
 Main libraries include:
 -PyTorch
 -Streamlit
